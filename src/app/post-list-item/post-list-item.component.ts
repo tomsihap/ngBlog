@@ -15,11 +15,11 @@ export class PostListItemComponent implements OnInit {
   }
 
   onLike() {
-    this.post.likes++;
+    this.post.loveits++;
   }
 
   onDislike() {
-    this.post.likes--;
+    this.post.loveits--;
   }
 
 }

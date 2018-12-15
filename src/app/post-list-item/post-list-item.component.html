@@ -1,12 +1,12 @@
 <li [ngClass]="{'list-group-item'         : true,
-                'list-group-item-success' : post.likes > 0,
-                'list-group-item-danger'  : post.likes < 0
+                'list-group-item-success' : post.loveits > 0,
+                'list-group-item-danger'  : post.loveits < 0
               }">
 
   <h3>{{post.title}}&nbsp;<span class="float-right">{{post.created_at | date:'short'}}</span></h3>
 
   <p>{{post.content}}</p>
 
-  <button class="btn btn-success" (click)="onLike()">Like!</button>
-  <button class="btn btn-danger" (click)="onDislike()">Dislike!</button>
+  <button class="btn btn-success" (click)="onLike()">Love It!</button>
+  <button class="btn btn-danger" (click)="onDislike()">Don't Love It!</button>
 </li>
