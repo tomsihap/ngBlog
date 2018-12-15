@@ -1,8 +1,8 @@
 <li class="list-group-item list-group-item-success">
 
-  <h3>title&nbsp;<span class="float-right">created_at</span></h3>
+  <h3>{{post.title}}&nbsp;<span class="float-right">{{post.created_at | date:'short'}}</span></h3>
 
-  <p>content</p>
+  <p>{{post.content}}</p>
 
   <button class="btn btn-success">Like!</button>
   <button class="btn btn-danger">Dislike!</button>
