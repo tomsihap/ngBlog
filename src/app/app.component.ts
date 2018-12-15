@@ -12,7 +12,7 @@ export class AppComponent {
     {
       title: 'Mon premier post',
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque eu risus sit amet consectetur. Pellentesque eget ligula diam. Ut semper vel ante vitae lacinia. Vestibulum imperdiet purus in molestie scelerisque. Mauris eleifend erat eu euismod suscipit. Vivamus in urna convallis, congue massa vitae, viverra felis.',
-      likes: 6,
+      likes: 0,
       created_at: new Date()
     },
     {
@@ -24,7 +24,7 @@ export class AppComponent {
     {
       title: 'Encore un troisième message !',
       content: 'Integer sagittis leo volutpat, condimentum massa sit amet, porta dolor. Donec dignissim interdum leo, in vestibulum eros. Morbi mattis vestibulum sapien, vel egestas mauris pharetra ut. Etiam tristique ligula sit amet enim fermentum, vitae bibendum turpis sollicitudin. Quisque ut molestie sapien. Praesent a elit sed nulla euismod suscipit.',
-      likes: -7,
+      likes: 0,
       created_at: new Date()
     },
   ];
